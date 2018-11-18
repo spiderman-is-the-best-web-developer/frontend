@@ -1,0 +1,26 @@
+{
+	"name": "seedhr",
+	"version": "1.0.0",
+	"description": "mern stack development server for seedHR",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js", 
+		"server": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/spiderman-is-the-best-web-developer/frontend.git"
+	},
+	"author": "Miguel De Chavez",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/spiderman-is-the-best-web-developer/frontend/issues"
+	},
+	"homepage": "https://github.com/spiderman-is-the-best-web-developer/frontend#readme",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"concurrently": "^4.0.1",
+		"express": "^4.16.4",
+		"mongoose": "^5.3.12"
+	}
+}
